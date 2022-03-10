@@ -8,23 +8,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Resume  from './components/Resume';
 function App() {
   return (<>
-    {/* <NavbarApp />
-    <CarouselApp />
-    <Footer /> */}
-    <Router>
-      <Routes>
-        <Route path="/" element={<> 
+
         <NavbarApp />
          <Resume/>
-          <Footer /></>} />
-          <Route path="" element={
-          <> 
-          <NavbarApp />
-          <Resume />
-          <Footer />
-          </>} />
-      </Routes>
-    </Router>
+         <Footer/>
+          
+    
   </>);
 }
 
